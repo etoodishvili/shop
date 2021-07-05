@@ -10,14 +10,15 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/responsive.css">
 
-<body>
-    <header class="header-wrapper">
+
+    <header>
         <div class="container">
-            <img src="images/logo.svg" alt="logo">
-            <div class="header-right">
-                <nav class="eto">
+            <div class="navbar">
+                <a class="logo" href=""> <img src="images/logo.svg" alt="logo"> </a>
+
+                <nav class="navbar-links" id="navbarlinks">
                     <ul class="nav-ul">
                         <li class="nav-li"> <a class="nav-a" href="#">ჩვენს შესახებ</a></li>
                         <li class="nav-li"> <a class="nav-a" href="#">ბრენდები</a></li>
@@ -27,13 +28,17 @@
                         <li class="nav-li"> <a class="nav-a" href="#">სამოსი ქირით</a></li>
                     </ul>
                 </nav>
-
                 <div class="icons">
                     <img class="icon" src="images/icon1.svg" alt="icon">
-                    <img class="icon" src="images/icon2.svg" alt="icon">
+                    <img class="icon icon1" src="images/icon2.svg" alt="icon">
                     <img class="icon" src="images/icon3.svg" alt="icon">
                 </div>
 
+
+
+                <div class="toggle-button" id="togglebutton">
+                    <i class="fas fa-bars"></i>
+                </div>
 
             </div>
         </div>
@@ -41,70 +46,35 @@
 
     <section>
         <div class="container1">
-
-            <a class="block1" href="">
-
-                    <p class="text1">BY LOVELINE</p>
-            </a>
-
-            
-            <a class="block2" href="">
-                <p class="text">კაბა.KABA</p>
-            </a>
-
-            <a class="block3" href="">
-                <p class="text">BY SOLO</p>
-            </a>
-
-            <a class="block4" href="">
-                <p class="text">Comode</p>
-            </a>
-
-            <a class="block5" href="">
-                <p class="text">Paraiso</p>
-            </a>
-            <a class="block6" href="">
-                <p class="text">ZOMA</p>
-            </a> -->
-
-
-
-            <!-- <div class="block">
-                <img src="images/by love.jpg" alt="image">
+            <a href="#" class="test">
                 <p class="text">BY LOVELINE</p>
-
-            </div>
-
-            <div class="block">
-                <img src="images/kaba.jpg" alt="image">
+            </a>
+            <a href="#" class="test">
+               
                 <p class="text">კაბა.KABA</p>
-            </div>
-
-            <div class="block">
-                <img src="images/BY SOLO.jpg" alt="image">
+            </a>
+            <a href="#" class="test">
+                
                 <p class="text">BY SOLO</p>
-            </div>
-
-            <div class="block">
-                <img class="img4" src="images/co mode.jpg" alt="image">
+            </a>
+            <a href="#" class="test">
+              
                 <p class="text">Comode</p>
-            </div>
-
-            <div class="block">
-                <img class="img5" src="images/paraiso.jpg" alt="image">
+            </a>
+            <a href="#" class="test">
+              
                 <p class="text">Paraiso</p>
-            </div>
+            </a>
 
-            <div class="block">
-                <img class="img6" src="images/zoma.jpg" alt="image">
+            <a href="#" class="test">
+               
                 <p class="text">ZOMA</p>
-            </div>
-
-
+            </a>
 
 
         </div>
     </section>
+  
 
 
 
@@ -172,7 +142,7 @@
 
         </div>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
