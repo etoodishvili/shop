@@ -1,6 +1,120 @@
-<div class="star">
-    <img src="images/star.png" alt="image">
-    <img src="images/star.png" alt="image">
-    <img src="images/star.png" alt="image">
-    <img src="images/star1.png" alt="image">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/3c3e5f5982.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    
+    
+
+    
+
+
+
+<div class="product_preview" >
+    
+    <div class="left-side" >
+        <img src="images/shoes1.jpg" alt="Image1">
+        <img src="images/shoes2.jpg" alt="Image2">
+        <img src="images/shoes3.jpg" alt="Image3">
+        <img src="images/shoes2.jpg" alt="Image4">
+    </div>
 </div>
+
+
+
+
+
+<footer>
+    <div class="container-footer">
+        <div class="footer-wrapper">
+            <div class="left">
+                <img src="images/logo.png" alt="logo">
+                <div class="social-icons">
+                    <a class="media" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="media" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="media" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <nav class="right">
+                <div class="box">
+                    <h3>მენიუ</h3>
+                    <ul>
+                        <li><a href="#"></a> ჩვენს შესახებ</li>
+                        <li><a href="#"></a> ქირის წესები</li>
+                        <li><a href="#"></a> ჩვენს შესახებ</li>
+                        <li><a href="#"></a> ქირის წესები </li>
+                    </ul>
+                </div>
+
+                <div class="box">
+                    <h3>სერვისები</h3>
+                    <ul>
+                        <li><a href="#"></a> სასაჩუქრე ბარათი</li>
+                        <li><a href="#"></a> მიტანის სერვისი</li>
+
+                    </ul>
+                </div>
+
+                <div class="box">
+                    <h3>დახმარება</h3>
+                    <ul>
+                        <li><a href="#"></a> შეკვეთის შესახებ</li>
+                        <li><a href="#"></a> დაბრუნება</li>
+                        <li><a href="#"></a> მოგვწერე დახმარებისთვის </li>
+
+                    </ul>
+                </div>
+
+                <div class="box">
+                    <h3>წესები</h3>
+                    <ul>
+                        <li><a href="#"></a> საავტორო უფლებები</li>
+                        <li><a href="#"></a>მხარეთა უფლება მოვალეობები</li>
+                    </ul>
+                </div>
+
+
+            </nav>
+        </div>
+
+        <div class="last">
+            <p>წარმოებულია საქართველოში</p>
+            <p>2020</p>
+        </div>
+        
+
+
+
+
+    </div>
+</footer>
+
+<script>
+    
+    const productPreview = document.querySelector('.product_preview');
+        const leftSide = document.querySelector('.left-side');
+        const images = document.querySelectorAll('img');
+        console.log(images)
+        const rightSide = document.createElement('div');
+        productPreview.appendChild(rightSide);
+        rightSide.classList.add('right-side');
+        rightSide.style.cssText+= `background-image: url('images/paraiso1.jpg')`;
+
+        images.forEach(image => {
+            image.addEventListener('click', function() {
+                let src = image.src;
+                rightSide.style.cssText+= `background-image: url(${src})`;
+                
+            })
+        });
+</script>
+
+</body>
