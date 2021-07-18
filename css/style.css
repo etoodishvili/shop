@@ -94,38 +94,37 @@
 
 .test:nth-child(1){
     background-image: url(../images/bylove.jpg);
-    background-size:cover ;
+    background-size: cover;
     background-position-y: 20%;
-    background-position-x: 38%;
+    background-position-x: 35%;
 }
 .test:nth-child(2){
     background-image: url(../images/kaba.jpg);
-    background-size:cover ;
+    background-size: cover;
     background-position-y: 20%;
-    background-position-x: 70%;
-    
+    background-position-x: 65%;
 }
 .test:nth-child(3) {
     background-image: url(../images/bysolo.jpg);
-    background-size:cover ;
+    background-size: cover;
     background-position-y: 20%;
     background-position-x: 75%;
 }
 .test:nth-child(4) {
     background-image: url(../images/comode.jpg);
-    background-size:cover ;
+    background-size: cover;
     background-position-y: 20%;
     background-position-x: 45%;
 }
 .test:nth-child(5) {
     background-image: url(../images/paraiso.jpg);
-    background-size:cover ;
+    background-size: cover;
     background-position-y: 20%;
-    background-position-x: 5%;
+    background-position-x: 8%;
 }
 .test:nth-child(6) {
     background-image: url(../images/zoma.jpg);
-    background-size:cover ;
+    background-size: cover;
     background-position-y: 20%;
     background-position-x: 50%;
 }
@@ -622,42 +621,3 @@
     width: 200px;
 }
 /*  */
-/* .product_preview{
-    background-color: burlywood;
-    
-}
-.top-side{
-width: 60%;
-height: 600px;
-background-position: 50%;
-background:no-repeat;
-margin: 10px auto;
-} */
- .product_preview {
-    /* display: flex;
-    flex-direction: row;
-    justify-content: space-around; */
-    background-color: antiquewhite;
-}
-.left-side {
-    background-color: bisque;
-    /* display: flex;
-    flex-direction: column;
-    max-width: 30%;
-    justify-content: space-between; */
-}
-img {
-    margin: 1%;
-    height: 90px;
-}
-img:hover {
-    cursor: pointer;
-}
-.right-side {
-    display: inline-block;
-    width: 60%;
-    height: 700px;
-    /* background-position: 50%; */
-    background: no-repeat;
-    margin: 10px auto;
-}
