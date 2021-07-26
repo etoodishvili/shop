@@ -25,22 +25,24 @@
                         <li class="nav-li"> <a class="nav-a" href="sale.html">კოლექციები</a>
                             <div class="dropdown">
                                 <ul class="dropdown-ul">
-                                    <li class="dropdown-li"> ქალი
+                                    <li class="dropdown-li" > <a class="dropdown-color" href="sale.html"> ქალი</a> 
                                         <div class="dropdown1">
                                             <ul class="dropdown-ul1">
-                                                <li class="dropdown-li1">ტანსაცმელი</li>
-                                                <li class="dropdown-li1">ფეხსაცმელი</li>
+                                               <li  class="dropdown-li1"> <a class="dropdown-color" href="sale.html">ტანსაცმელი</a> </li>
+                                                <li class="dropdown-li2"> <a class="dropdown-color" href="sale.html">ფეხსაცმელი</a> </li>
                                             </ul>
-
-                                        </div>
+  
+                                          </div>
+                                    
                                     </li>
 
-                                    <li class="dropdown-li"> კაცი</li>
-                                    <li class="dropdown-li"> ბავშვი</li>
+                                    <li class="dropdown-li" > კაცი</li>
+                                    <li class="dropdown-li" > ბავშვი</li>
                                 </ul>
                             </div>
-
-                        </li>
+                        
+                        </li
+                        >
                         <li class="nav-li"> <a class="nav-a" href="page3.html">შესვლა</a></li>
                         <li class="nav-li"> <a class="nav-a" href="#">კონტაქტი</a></li>
                         <li class="nav-li"> <a class="nav-a" href="#">სამოსი ქირით</a></li>
@@ -77,20 +79,23 @@
                         <span>ერთეული</span>
                         <span>ჯამი</span>
                     </div>
-                    <div class="bag-image1">
+                    <div class="bagimage1" id="bagimage1">
                         <img src="images/paraisoshoes1.jpg" alt="image">
-                        <div class="image1-title">
+                        <div class="et">
                             <span class="bag-p">Paraiso</span>
                             <span class="bag-s">ფეხსაცმელი</span>
                         </div>
                         <span class="bag-s">65.00ლ</span>
-                        <input class="bag-box" type="text" placeholder="1" >
+                        <input class="bag-box" type="number" placeholder="1" >
                         <span class="bag-s">65.00ლ</span>
 
                     </div>
                     <div class="date">
                         <span> 23.11.20 - 15:00:56</span>
-                        <i class="far fa-trash-alt"></i>
+                        <div class="star-button" id="trash">
+                            <i class=" far fa-trash-alt"></i>
+                        </div>
+                       
                     </div>
 
 
@@ -101,13 +106,14 @@
                             <span class="bag-s">ფეხსაცმელი</span>
                         </div>
                         <span class="bag-s">200.00ლ</span>
-                        <input class="bag-box" type="text" placeholder="1" >
+                        <input class="bag-box" type="number" placeholder="1" >
                         <span class="bag-s">200.00ლ</span>
 
                     </div>
                     <div class="date">
                         <span> 23.11.20 - 15:00:56</span>
                         <i class="far fa-trash-alt"></i>
+                        
                     </div>
 
 
@@ -115,8 +121,8 @@
 
                 <div class="bag-right">
 
-                    <span class="cash">ქვითარი</span>
-                    <div class="order">
+                    <!-- <span class="cash">ქვითარი</span> -->
+                    <!-- <div class="order">
                         <div class="order1">
                             <span> დადასტურებული რაოდენობა</span>
                             <span> პროდუქტის ჯამური თანხა</span>
@@ -135,7 +141,33 @@
 
                         </div>
 
-                    </div>
+                    </div> -->
+
+
+                    <table class="">
+                        <caption class="cash"> ქვითარი</caption>
+                        <tbody class="tbody">
+                        <tr class="order1">
+                            <th > დადასტურებული რაოდენობა</th>
+                            <th> პროდუქტის ჯამური თანხა</th>
+                            <th>  მიტანის საფასური</th>
+                            <th>  ჯამური საფასური</th>
+                        </tr>
+                        <tr class="order2">
+                            <td class="bag-box"> <span>2</span></td>
+                            <td class="number2" >265.00ლ</td>
+                            <td class="number3" >5.00ლ</td>
+                            <td>
+                                <div class="price">
+                                    <span class="number4">270.00</span>
+                                    <span class="number5" >ლ</span>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                        
+
+                    </table>
                    
                     <button class="btn" type="button">ყიდვის გაგრძელება</button>
 
