@@ -10,7 +10,7 @@ togglebutton.addEventListener('click',function() {
 
 const productPreview = document.querySelector('.product_preview');
 const bottomSide = document.querySelector('.bottom-side');
-const images = document.querySelectorAll('img');
+const images = document.querySelectorAll('.little1');
 console.log(images)
 const topSide = document.createElement('div');
 productPreview.appendChild(topSide);
